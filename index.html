@@ -4,36 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banana lang</title>
-    <style>
-
-   .btn-translate{
-        text-align: left;
-    }
-        textarea{
-            border: 1px solid black;
-            height: 10vh;
-            width: 80%;
-            margin: 1rem;
-            padding: 1rem;
-        }
-        #Output{
-            border: 1px solid black;
-            height: 10vh;
-            width: 80%;
-            margin: 1rem;
-            padding: 1rem;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2> Banana talk</h2>
+    <div class="banana">
+        <h2> Banana talk</h2>
 
-    <textarea id="txt-input" placeholder="Type something"></textarea>
+        <textarea id="txt-input" placeholder="Type something"></textarea>
 
-    <button id="btn-translate">Translator</button>
+        <div>
+            <button id="btn-translate">Translate</button>
+        </div>
+    
+        <div id="Output"></div>
 
-    <div> output will display below</div>
-    <div id="Output"></div>
+    </div>
+   
 
     <script src="app.JS" type="text/javascript"></script>
 
