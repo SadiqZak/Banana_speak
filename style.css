@@ -49,8 +49,9 @@ h2{
 
 
     textarea{ 
+        font-size: 20px;
         font-family: 'Anton', sans-serif;
-        max-width: 1200px;
+        max-width: 650px;
         justify-content: center;
         text-align: left;
         border: 1px solid black;
@@ -64,8 +65,9 @@ h2{
     }
 
     #Output{
+        font-size: 25px;
         font-family: 'Anton', sans-serif;
-        max-width: 1200px;
+        max-width: 650px;
         border: 1px solid black;
         height: 10vh;
         width: 80%;
@@ -76,6 +78,12 @@ h2{
         align-items: center;
         background-color: #fff;
         border-radius: 10px;
+    }
+
+    p{
+        font-family: 'Anton', sans-serif;
+        font-size: 17px;
+        
     }
 
 
